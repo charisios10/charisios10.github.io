@@ -1,7 +1,7 @@
 <script>
+	export const prerender = true;
 	import { onMount } from 'svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
-
 	let stars = [];
 
 	onMount(() => {
