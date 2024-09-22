@@ -1,38 +1,44 @@
-# create-svelte
+# vCard - Personal portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-## Creating a project
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Demo
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Prerequisites
 
-## Developing
+Before you begin, ensure you have met the following requirements:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-```bash
-npm run dev
+## Installing vCard
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+To install **vCard**, follow these steps:
 
-## Building
-
-To create a production version of your app:
+Linux and macOS:
 
 ```bash
-npm run build
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
 
-You can preview the production build with `npm run preview`.
+Windows:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+## Contact
+
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+## License
+
+MIT
