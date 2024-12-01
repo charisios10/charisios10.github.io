@@ -1,4 +1,4 @@
-baseURL: "https://charisios.com/"
+baseURL: "https://charisios.com"
 languageCode: "en-us"
 title: "My Website"
 theme: "terminal"
