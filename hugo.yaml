@@ -2,7 +2,7 @@ baseURL: "https://charisios.com"
 languageCode: "en-us"
 title: "My Website"
 theme: "terminal"
-timeZone: "europe/athens"
+timeZone: "Europe/Athens"
 menus:
   main:
     - identifier: about
