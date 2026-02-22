@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Computer Science Student</title>
+    <title>My Portfolio - Network Engineering Student</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </head>
 
 <body>
@@ -23,8 +24,8 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, my name is Charisios and i am an Network Engineering Student. I have an ambition in
-            web development and a interest in aviation. </p>
+        <p>Hi, my name is Charisios and I am a Network Engineering student. I have a passion for web development and an
+            interest in aviation.</p>
     </section>
 
     <section id="projects">
@@ -33,18 +34,21 @@
             <div class="project-card">
                 <h3>A Calculator</h3>
                 <p>An ordinary calculator built with HTML, CSS, and JavaScript.</p>
-                <button type="button" id="demos-btn" onclick="window.open('charisios.com/a-calculator/')">View Demo</button> 
+                <button type="button" id="demos-btn" onclick="window.open('https://charisios.com/a-calculator/')">View
+                    Demo</button>
             </div>
             <div class="project-card">
                 <h3>Snake Game</h3>
-                <p>A classic Snake game built with HTML5 Canvas and JavaScript. Navigate the snake to eat apples and grow longer 
-                    while avoiding walls and colliding with yourself.</p>
-                <button type="button" id="demos-btn" onclick="window.open('https://charisios.com/snake-game')">View Demo</button>
+                <p>A classic Snake game built with HTML5 Canvas and JavaScript. Navigate the snake to eat apples and
+                    grow longer while avoiding walls and colliding with yourself.</p>
+                <button type="button" id="demos-btn" onclick="window.open('https://charisios.com/snake-game')">View
+                    Demo</button>
             </div>
             <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Description of your third project. Any achievements or interesting features?</p>
-                <button type="button" id="demos-btn" onclick="window.open('https://example.com/demo1')">View Demo</button>
+                <h3>Qequation</h3>
+                <p>A guide explaining how to solve quadratic equations with ease.</p>
+                <button type="button" id="demos-btn" onclick="window.open('https://charisios.com/qequation/')">View
+                    Demo</button>
             </div>
         </div>
     </section>
@@ -64,15 +68,32 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out to me:</p>
-        <div class="contact-links">
-            <a href="mailto:gamecharisios16@gmail.com">Email</a>
-            <a href="https://github.com">GitHub</a>
-            <a href="https://linkedin.com">LinkedIn</a>
-        </div>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="bac247f9-103d-4e84-925d-7cf994d75a68">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
-        <p>2026 Charisios Charisiadis &copy; All rights reserved.</p>
+        <p>&copy; 2026 Charisios Charisiadis. All rights reserved.</p>
+        <div class="contact-links">
+            <a href="https://github.com/charisios10">GitHub</a>
+            <a href="mailto:your-email@example.com">Email</a>
+            <a href="https://linkedin.com/in/charisios">LinkedIn</a>
+        </div>
     </footer>
 </body>
 
